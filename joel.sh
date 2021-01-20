@@ -19,4 +19,6 @@ cowsay -s "Backing up your Prefs"
 macprefs backup
 cowsay -s "And taking a big ol' dump(file) in your special directory"
 brew bundle dump --file ~/Library/Mobile Documents/com~apple~CloudDocs/prefs/brew/Brewfile
+cowsay -s "And now we shall clone the Git repository of this, so you can learns!!"
+sudo git clone https://github.com/Capp3/joels_crib.git ~/Library/Mobile Documents/com~apple~CloudDocs/prefs/brew/gitland
 cowsay -t "OK, hitting the couch"
